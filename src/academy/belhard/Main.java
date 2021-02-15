@@ -15,8 +15,9 @@ public class Main {
         System.out.println("Сумма моего года, месяца и дня рождения: " + sum);
         if (dayOfBirthday < monthOfBirthday){System.out.println("Месяц моего рождения больше даты рождения: True");}
             else {System.out.println("Месяц моего рождения больше даты рождения: False");}
-        System.out.println("Массив с моим именем: " + name);
-        System.out.println("Мне - " + result + " лет");
+        System.out.print("Массив с моим именем: ");
+        for (int i = 0; i < name.length; i++) {System.out.print(name[i]);}
+        System.out.println("\n" + "Мне - " + result + " лет");
 
 
 
